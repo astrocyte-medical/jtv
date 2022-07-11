@@ -4,13 +4,10 @@ jtv is a command line utility which allows you to visualise JSON and YAML schema
 
 ## Installation
 
-Use a virtual environment. From PyPI:
-
 ```
 $ pip install --upgrade pip
-$ pip install -i https://test.pypi.org/simple/ jtv==1.70.0
+$ pip install jtv
 ```
-
 
 ## Usage
 

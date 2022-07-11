@@ -2,7 +2,7 @@
 from jtv.cli import cli
 
 
-__version__ = '1.71.0'
+__version__ = '1.73.0'
 
 
 def main():

@@ -1,5 +1,5 @@
 # template.py
-version = '1.71.0'
+version = '1.73.0'
 
 template = {
     'logo': '<n>   {●}<n>    ║SON<n>    ╠══╦══<n>  ══╝  ║<n>       ║REE VIEWER          v-' + str(version),
