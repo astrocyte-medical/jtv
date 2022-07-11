@@ -1,3 +1,19 @@
+# jtv
+
+jtv is a command line utility which allows you to visualise JSON and YAML schemas as text trees. It may be used as a complement to `jq`, to facilitate the interpretation of a JSON schema, prior to defining filters.
+
+## Installation
+
+Use a virtual environment. From PyPI:
+
+```
+$ pip install --upgrade pip
+$ pip install -i https://test.pypi.org/simple/ jtv==1.70.0
+```
+
+
+## Usage
+
 To show the help use `jtv -h`
 
 ![new_help](https://user-images.githubusercontent.com/80931870/178190588-d5b857ad-3f31-4352-b5f1-d40e33259a22.png)
