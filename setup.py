@@ -10,7 +10,7 @@ requirements = [
 
 setup(
     name = 'jtv',
-    version = '1.73.0',
+    version = '1.74.0',
     long_description = 'A command line utility which allows you to visualise the nodes in a JSON file (or GET request) as an ASCII tree.',
     platforms = 'Linux',
     license = 'MIT',

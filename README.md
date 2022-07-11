@@ -44,7 +44,7 @@ $ echo '[{"0": {"00": [{"000": "", "001": true, "002": []}, {"NEW": {"A": 2}}]},
 To visualise JSON schemas, as above, use the `-j` flag. To visualise YAML schema use the `-y` flag.
 
 ```
-$ cat .gitlab-ci.yml | jtv -y
+$ cat .yml | jtv -y
 ```
 
 ![new_yaml](https://user-images.githubusercontent.com/80931870/178190597-3ed79d53-5405-4c7c-8648-d2c78b057b19.png)
