@@ -4,7 +4,7 @@ To show the help use `jtv -h`
 
 ## Inconsistency handling
 
-Arrays may contain objects with different schemas. By default, or using the option `--mode distinct` will wrapp all objects in a new object with the node key specifying a schema version. The appended `◎-schema-0` node does not exist in the JSON and is strictly used to differentiate between different object schemas. 
+Arrays may contain objects with different schemas. By default, or using the option `--mode distinct` will wrap all objects in a new object with the node key specifying a schema version. The appended `◎-schema-0` node does not exist in the JSON and is strictly used to differentiate between different object schemas. 
 
 ```
 $ echo '[{"0": {"00": [{"000": "", "001": true, "002": []}, {"NEW": {"A": 2}}]}, "1": {"10": []}}, {"A": {"r": []}}]' | jtv -j --mode distinct
